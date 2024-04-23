@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Data Form</h2>
+        <form action="/predict" method="POST">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="text" class="form-control" id="age" name="age" placeholder="Enter age">
+            </div>
+            <div class="form-group">
+                <label for="educational-num">Educational Number:</label>
+                <input type="text" class="form-control" id="educational-num" name="educational-num" placeholder="Enter educational number">
+            </div>
+            <div class="form-group">
+                <label for="hours-per-week">Hours per Week:</label>
+                <input type="text" class="form-control" id="hours-per-week" name="hours-per-week" placeholder="Enter hours per week">
+            </div>
+            <div class="form-group">
+                <label for="workclass">Workclass:</label>
+                <select class="form-control" id="workclass" name="workclass">
+                    <option value="Private">Private</option>
+                    <option value="Local-gov">Local Government</option>
+                    <option value="Self-emp-not-inc">Self Employed (Not Incorporated)</option>
+                    <!-- Add more options here -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="occupation">Occupation:</label>
+                <select class="form-control" id="occupation" name="occupation">
+                    <option value="Machine-op-inspct">Machine Operator/Inspector</option>
+                    <option value="Farming-fishing">Farming/Fishing</option>
+                    <option value="Protective-serv">Protective Services</option>
+                    <!-- Add more options here -->
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
