@@ -29,4 +29,17 @@ Include exception.py, logger.py, and utils.py files in this folder. Make this fo
 #### Step 5.1: Create a components Folder
 Include data_ingestion.py, data_transformation.py, model_trainer.py, and an __init__.py file. These components are interconnected.
 
+#### Step 5.2: Create a pipeline Folder
+Create two Python files, training_pipeline.py and prediction_pipeline.py, with an __init__.py file.
+
+
+### Step 6: Create a notebook Folder
+Create a folder named data and include the dataset. Additionally, create an EDA.ipynb file to perform exploratory data analysis and model training.ipynb.
+
+## Step 7: Create an app.py File
+This file will contain the Flask application for serving the machine learning model.
+
+### Step 8: Create a templates Folder
+Create a folder named templates to store HTML templates for the Flask application.
+
 
