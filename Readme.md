@@ -17,8 +17,9 @@ Create the file by right-clicking and include the venv directory in it.
 
 
 ### Step 3: Create a requirements.txt File
+```
 pip install -r requirements.txt
-
+```
 
 ### Step 4: Create a setup.py File
 This file is used to install the entire project as a package. Additionally, it contains a function to read the packages from requirements.txt.
